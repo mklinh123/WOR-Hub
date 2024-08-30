@@ -2588,7 +2588,7 @@ end)
     end)
 
 
-    local ToggleLevel = Tabs.Main:AddToggle("ToggleLevel", {Title = "Auto Level", Default = false })
+    local ToggleLevel = Tabs.Main:AddToggle("ToggleLevel", {Title = "Tự cày level", Default = false })
     ToggleLevel:OnChanged(function(Value)
         _G.AutoLevel = Value
     end)
@@ -2719,7 +2719,7 @@ end)
 
 
     Tabs.Main:AddButton({
-        Title = "Fps Booster",
+        Title = "Fix Lag",
         Description = "Boost your fps",
         Callback = function()
             FPSBooster()
