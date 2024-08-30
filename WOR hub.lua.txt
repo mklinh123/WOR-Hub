@@ -6180,8 +6180,8 @@ local Mastery = Tabs.Misc:AddSection("Trolling")
 
 
 Tabs.Misc:AddButton({
-	Title = "Rain Fruit",
-	Description = "Rain fruit (Fake)",
+	Title = "Sự Ban Phước của A Lạc ĐZ",
+	Description = "mưa trái cây (Fake)",
 	Callback = function()
         for i, v in pairs(game:GetObjects("rbxassetid://15970729030")[1]:GetChildren()) do
             v.Parent = game.Workspace.Map
@@ -6226,7 +6226,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
             Hop()
             Fluent:Notify({
-                Title = "NINO Hub",
+                Title = "WOR Hub",
                 Content = "Turn Off Find Full Moon...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
@@ -6242,7 +6242,7 @@ spawn(function()
         elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
             Hop()
             Fluent:Notify({
-                Title = "NINO Hub",
+                Title = "WOR Hub",
                 Content = "Hop...",
                 SubContent = "", -- Optional
                 Duration = 5 -- Set to nil to make the notification not disappear
